@@ -1,0 +1,17 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  min-height: 8vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2d2d2d;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 20px;
+  z-index: 2;
+}
+/*# sourceMappingURL=styles.css.map */

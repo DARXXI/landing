@@ -1,0 +1,24 @@
+$minWidth: 320px;
+$maxWidth: 1577px;
+$maxWidthContainer: 1248,44px;
+//ниже 4 брейпоинта
+$md1:$maxWidthContainer + 12px;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+nav {
+    //width:$maxWidthContainer;
+    display: flex;
+    justify-content: space-around;
+    min-height: 8vh;
+    align-items: center;
+    background-color: #2d2d2d;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size: 20px;
+    z-index: 2;
+}
+
+
+

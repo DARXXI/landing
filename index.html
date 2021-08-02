@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link href="styles.css" rel="stylesheet">
+        <link href="mystyles.css" rel="stylesheet">
+        <title>Landing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+       
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+        <style>
+            .swiper-container {
+      width: 100%;
+      height: 90%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      align-items: center;
+    }
+
+    .slide-container {
+      padding: 11px 32px;
+    }
+
+    .slide-card {
+      background-color: #111;
+      box-shadow: 0 8px 30px -7px #000;
+      margin: 0 20px;
+      padding: 9px 33px;
+      border-radius: 20px;
+      border: 0;
+      cursor: grab;
+    }
+
+    .slide-card .slide-card-img-top {
+      max-width: 100px;
+      border-radius: 50%;
+      margin: 15px auto 0;
+      box-shadow: 0 8px 20px -4px #000;
+      width: 100px;
+      height: 100px;
+    }
+
+    .slide-card h5 {
+      color: #01b0f8;
+      font-size: 21px;
+      line-height: 1.3;
+    }
+
+    .slide-card h5 span {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    .slide-card p {
+      font-size: 18px;
+      color: rgb(240, 222, 222);
+      padding-bottom: 15px;
+    }
+
+    .swiper-slide.swiper-slide-active {
+      transform: scale(1.2);
+    }
+
+    .autoplay {
+      position: absolute;
+      color: #000;
+      font: 100px/100% arial, sans-serif;
+      right: 15px;
+      text-decoration: none;
+       text-shadow: 0 1px 0 #fff;
+      top: 15px;
+      width: auto;
+      height: auto;
+      z-index: 999;
+      opacity: 0.4;
+      transition: opacity 0.1s ease-in, transform 0.1s ease-out;
+      animation: fade_close 3s ease-out;
+    }
+
+    @media (max-width: 800px) {
+      .slide-container {
+        padding: 0px 0px;
+      }
+
+      .swiper-slide {
+        width: 360px;
+      }
+    }
+  </style>
+    </head>
+    <body>
+            <nav>
+                <ul class="menu__list">
+                    <li class="selected"><a  href="#HOME">Home</a></li>
+                    <li class=""><a  href="#PORTFOLIO">Portfolio</a></li>
+                    <li class=""><a  href="#ABOUT-US">About</a></li>
+                    <li class=""><a   href="#CONTACT">Contact</a></li>                    
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div> 
+            </nav> 
+            <main><a class="anchor" id="HOME"></a>
+                <section class="presentation-background"> 
+                    <div class="presentation">
+                    <div class="introduction">
+                        <div class="intro-text">
+                            <h1>Cutting-edge technologies</h1>
+                            <h4>The unique way of coding provide users with the latest
+                                methonds and approaches</h4>
+                        </div>
+                        <div class="interference">
+                            <button>Contact</button>
+                        </div>
+                    </div>                                        
+                    <div class="cover">
+                        <img src="intro.png" alt= "video"/>    
+                    </div>
+                </div>
+                </section>
+                <section class="weprovide"><a class="anchor" id="PORTFOLIO"></a>
+                    <div class="two-pieces">
+                        <div class="left-part">
+                            <div class="shit-title">
+                                <h1>Do you know we can provide for you? </h1>
+                            </div>
+                            <div class="holyfuk-text">
+                                <h4>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                    seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                    Lorem ipsum new idolor
+                                    
+                                </h4>
+                            </div>
+                            <button>learn more</button>
+                        </div>
+                        <div class="right-part">
+                            <ul class="fourpartselement">
+                                <li>
+                                    <div class="settings">
+                                        <img src="settings.jpg" alt= "settings"/> 
+                                    </div>
+                                    <div class="title"><h1>Managment</h1></div>
+                                    <div class="text">
+                                    <h4>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                    seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                    Lorem ipsum new idolororem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                    seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                    Lorem ipsum new idolor
+                                    </h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="pencil">
+                                        <img src="pencil.jpg" alt= "pencil"/> 
+                                    </div>
+                                    <div class="title"><h1>UI/UX Design</h1></div>
+                                    <div class="text">
+                                        <h4>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor
+                                        </h4>
+                                        </div>
+                                </li>
+                                <li>
+                                    <div class="diamond">
+                                        <img src="diamond.jpg" alt= "diamond"/> 
+                                    </div>
+                                    <div class="title"><h1>Logo/Branding</h1></div>
+                                    <div class="text">
+                                        <h4>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor
+                                        orem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                    seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                    Lorem ipsum new idolor
+                                        </h4>
+                                        </div>
+                                </li>
+                                <li>
+                                    <div class="truck">
+                                        <img src="truck.jpg" alt= "truck"/> 
+                                    </div>
+                                    <div class="title"><h1>Animation</h1></div>
+                                    <div class="text">
+                                        <h4>Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor
+                                        </h4>
+                                        </div>
+                                </li>
+                            </ul>
+                         </div>
+                     </div>
+                </div>
+             </div>                   
+        </div>
+                </section>
+                <section class="future-products-background">
+                    <div class="future-products">
+                    <div class="two-parts">
+                        <div class="top-part">
+                            <div class="title">
+                            <h1>FUTURE PRODUCTS</h1>
+                            </div>
+                            <div class="text">
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipis cing elit,
+                                sed do eiusmod tempor incididunt ut labore et.
+                                </h4>
+                            </div>
+                            <div class="small-menu">
+                                <ul>
+                                    <li>
+                                        <h3>
+                                            <a href="#"> ALL</a>                                          
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="#">PRINT TEMPLATE</a> 
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="#">WEB TEMPLATE</a> 
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="#">USER INTERFACE</a>  
+                                        </h3>
+                                    </li>
+                                    <li>
+                                        <h3>
+                                            <a href="#">MOCK-UP</a>  
+                                        </h3>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                       <div class="bottom-part">
+                            <div class="image-slider swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" class="all">
+                                        <div class="image-slider__image">
+                                            <img src="joker.jpg" alt="">
+                                        </div>                                       
+                                    </div>
+                                    <div class="swiper-slide" class="print-template">
+                                        <div class="image-slider__image">
+                                            <img src="joker.jpg" alt="">
+                                        </div>   
+                                    </div>
+                                    <div class="swiper-slide" class="web-template">
+                                        <div class="image-slider__image">
+                                            <img src="joker.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" class="user-interface">
+                                        <div class="image-slider__image">
+                                            <img src="joker.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" class="mock-up">
+                                        <div class="image-slider__image">
+                                            <img src="joker.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="image-slider__image">
+                                            <img src="joker.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-pagination"></div>
+
+                            </div>
+                       </div> 
+                    </div>
+                </div>
+                </section>
+                <section class="meet-our-team__wrapper"><a class="anchor" id="ABOUT-US"></a>
+                    <div class="meet-our-team">
+                        <div class="title">
+                            <h1>
+                                MEET OUR TEAM 
+                            </h1>
+                        </div>
+                        <div class="text">
+                            <h3>
+                                Lorem ipsum dolor sit amet, 
+                                consectetur adipis cing elit, sed dooing eiusmod tempor incididut 
+                                labore, print template.Lorem ipsum dolor sit amet, 
+                                consectetur adipis cing elit, sed dooing eiusmod tempor incididut 
+                                labore, print template.
+                            </h3>
+                        </div>
+                        <div class="cards-wrapper">
+                            <div class="card" id="first-card">
+                                <div class="front">
+                                    <div class="text">
+                                        <h1>Arthur Artyushenkov</h1> 
+                                    </div>
+                                    <div class="photo">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="text">
+                                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" id="second-card">
+                                <div class="front">
+                                    <div class="text">
+                                        <h1>i'm Batman</h1> 
+                                    </div>
+                                    <div class="photo">
+                                        <img src="batman.jpg" alt="arthur">
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="text">
+                                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" id="third-card">
+                                <div class="front">
+                                    <div class="text">
+                                        <h1>Arthur Artyushenkov</h1> 
+                                    </div>
+                                    <div class="photo">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="text">
+                                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" id="fourth-card">
+                                <div class="front">
+                                    <div class="text">
+                                        <h1>Arthur Artyushenkov</h1> 
+                                    </div>
+                                    <div class="photo">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="text">
+                                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" id="five-card">
+                                <div class="front">
+                                    <div class="text">
+                                        <h1>Arthur Artyushenkov</h1> 
+                                    </div>
+                                    <div class="photo">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                                <div class="back">
+                                    <div class="text">
+                                        Lorem ipsum dolor sitea amet, zixf conseit  adipi cing elit, 
+                                        seddi do eiusmod btdempor in didunt utlae ore etioe.
+                                        Lorem ipsum new idolor
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact-background"><a class="anchor" id="CONTACT"></a>
+                    <div class="contact">
+                    <div class="contact-title">
+                        <h1>GET IN TOUCH </h1>
+                        <h4> Lorem ipsum dolor sit amet, consectetur adipis cing elit, 
+                            sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, 
+                            sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, 
+                            sed do eiusmod tempor incididunt ut labore et.</h4>
+                    </div>
+                    <div class="contact-form">
+                        <div class="contact-form-wrapper">
+                        <form id="contact-form" method="post" action="">
+                            <div class="two-forms-container">
+                            <input name="name" type="text" class="form-control" placeholder="Name" required>
+                            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <textarea name="message" class="form-control-textarea" placeholder="Type your message" row="4" required></textarea>
+                            <input type="submit" class="form-control-submit" value="SEND MESSAGE">
+                        </form>
+                    </div>
+                        <div class="contact-info">
+                            <h1>
+                                Contact info
+                            </h1>
+                            <h4>
+                                Zelenograde one love
+                            </h4>
+                            <h4>
+                                darxxi@gmail.com
+                            </h4>
+                            <h4>
+                                (+7) 916 617 46373
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <footer class="footer">
+                    <div class="copyright">
+                        <h3>
+                            © 2021 DARXXI, all rights reserved.
+                        </h3>
+                    </div>
+                    <ul class="links">
+                        <li>
+                            <h4></h4>
+                            <div class="image">
+                                <a href="https://twitter.com"><img src="twitter2.png"></a>                               
+                            </div>
+                        </li>
+                        <li>
+                            <h4></h4>
+                            <div class="image">
+                                <a href="https://www.linkedin.com/"><img src="in.png"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4></h4>
+                            <div class="image">
+                                <a href="https://plus.google.com"><img src="google.png"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <h4></h4>
+                            <div class="image">
+                                <a href="https://facebook.com"><img src="facebook.png"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </footer>
+            </main>  
+       <script src="app.js"></script>
+       <script src="script.js"></script>
+       <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+       <script>
+        const swiper = new Swiper('.swiper-container', {
+    
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        speed:2000,
+        autoHeight:true,
+    
+          autoplay:
+          {
+            delay: 2000,
+          },
+          loop: true,
+    
+          // Default parameters
+          slidesPerView: 1,
+          spaceBetween: 10,
+          centeredSlides: true,
+          roundLengths: true,
+          loop: true,
+          loopAdditionalSlides: 30,
+          breakpoints: {
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 0
+            },
+            480: {
+              slidesPerView: 2,
+              spaceBetween: 0
+            },
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 0
+            }
+          }
+        });
+      </script>     
+    </body>
+</html>
+
